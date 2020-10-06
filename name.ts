@@ -1,2 +1,4 @@
 var random = require('random-name');
-console.log(random.first() +" "+ random.middle());
+const firstname: string = random.first();
+const lastname: string = random.last();
+console.log(firstname + " " + lastname);
